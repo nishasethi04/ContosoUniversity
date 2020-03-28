@@ -16,6 +16,7 @@ namespace ContosoUniversity.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            Console.WriteLine("Hi");
         }
 
         public IActionResult Index()
